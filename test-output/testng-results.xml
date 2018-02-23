@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42181" started-at="2018-02-23T10:30:03Z" finished-at="2018-02-23T10:30:45Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="42181" started-at="2018-02-23T10:30:03Z" finished-at="2018-02-23T10:30:45Z">
+      <class name="com.hackathon.hw.pagetest.BookMyMovieTestSet1">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.hackathon.hw.pagetest.BookMyMovieTestSet1@5442a311]" name="openBrowser" is-config="true" duration-ms="9510" started-at="2018-02-23T10:30:03Z" finished-at="2018-02-23T10:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ch]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://in.bookmyshow.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="bookMyMovieTest1()[pri:0, instance:com.hackathon.hw.pagetest.BookMyMovieTestSet1@5442a311]" name="bookMyMovieTest1" duration-ms="31339" started-at="2018-02-23T10:30:13Z" finished-at="2018-02-23T10:30:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookMyMovieTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.hackathon.hw.pagetest.BookMyMovieTestSet1@5442a311]" name="closeBrowser" is-config="true" duration-ms="1292" started-at="2018-02-23T10:30:44Z" finished-at="2018-02-23T10:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.hackathon.hw.pagetest.BookMyMovieTestSet1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
